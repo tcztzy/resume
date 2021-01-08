@@ -94,7 +94,7 @@
 
 % Chinese setup
 \ifdef{\@zh}{
-  \setCJKmainfont{Source Han Serif SC}
+  \setCJKmainfont{Source Han Serif CN}
   % Redefine '\emph' to bold style
   % Credit: https://tex.stackexchange.com/a/227644
   \let\emph\relax  % there's no \RedeclareTextFontCommand

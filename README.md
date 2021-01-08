@@ -1,7 +1,7 @@
 My Resume and LaTeX Template
 ============================
 
-**Weitian LI** `<wt@liwt.net>`
+**Tang Ziya** `<tcztzy@hotmail.com>`
 
 Introduction
 ------------
@@ -10,6 +10,7 @@ the [resume LaTeX template](resume.cls),
 and the [Font Awesome 5 LaTeX style](fontawesome5/fontawesome5.sty).
 
 This template is based on the
+[Weitian LI's resume](https://github.com/liweitianux/resume)
 [YACC: Another Awesome CV](https://github.com/darwiin/yaac-another-awesome-cv)
 by Christophe Roger, which is further based on the
 [Plasmati Graduate CV](https://www.latextemplates.com/template/plasmati-graduate-cv)
