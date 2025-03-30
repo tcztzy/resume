@@ -13,7 +13,7 @@
 
 % File information shown at the footer of the last page
 \fileinfo{%
-  \faCopyright{} 2021, Ziya TANG \hspace{0.5em}
+  \faCopyright{} 2025, Ziya TANG \hspace{0.5em}
   \creativecommons{by}{4.0} \hspace{0.5em}
   \githublink{tcztzy}{resume} \hspace{0.5em}
   \faEdit{} \today
@@ -32,10 +32,10 @@
   \mobile{153-5770-8868}
   \email{tcztzy@hotmail.com}
   \github{tcztzy} \\
-  \university{塔里木大学}
-  \degree{农业工程 \textbullet 硕士}
+  \university{南京农业大学}
+  \degree{农业工程 \textbullet 在读博士研究生}
   \birthday{1992-03-13}
-  \address{阿拉尔}
+  \address{南京}
   % Custom information:
   % \icontext{<icon>}{<text>}
   % \iconlink{<icon>}{<link>}{<text>}
@@ -47,35 +47,41 @@
 %======================================================================
 % Summary & Objectives
 %======================================================================
-{\onehalfspacing\hspace{2em}%
-农业工程专业（农业电气化与自动化方向）硕士研究生，有扎实的农学、数学与统计学基础，
-擅长数据建模与分析，热衷计算机和网络技术，熟练掌握 Python 和 C/C++ 语言编程，
-有 8 年的 Linux 使用经验。
-积极实践自由开源精神，
-在 \link{https://github.com/tcztzy}{GitHub} 上分享多个项目，
-在 \link{https://pypi.org/user/tcztzy/}{PyPi} 上维护 6 个包，
-并积极参与其他多个开源项目。
-\par}
+% {\onehalfspacing\hspace{2em}%
+% 农业工程专业（农业电气化与自动化方向）硕士研究生，有扎实的农学、数学与统计学基础，
+% 擅长数据建模与分析，热衷计算机和网络技术，熟练掌握 Python 和 C/C++ 语言编程，
+% 有 8 年的 Linux 使用经验。
+% 积极实践自由开源精神，
+% 在 \link{https://github.com/tcztzy}{GitHub} 上分享多个项目，
+% 在 \link{https://pypi.org/user/tcztzy/}{PyPi} 上维护 6 个包，
+% 并积极参与其他多个开源项目。
+% \par}
 
 %======================================================================
 \sectionTitle{技能和语言}{\faWrench}
 %======================================================================
 \begin{competences}
   \comptence{操作系统}{%
-    \icon{\faUbuntu} Ubuntu Linux (8 年)
-    \icon{\faLinux} Arch Linux （6 年）
+    \icon{\faUbuntu} Ubuntu Linux (11 年)
+    \icon{\faLinux} Arch Linux (9 年)
   }
   \comptence{编程}{%
-    \icon{\faPython} Python, \icon{\faCode} C/C++, \icon{\faRProject} R, \TeX
+    \icon{\faPython} Python/Cython, \icon{\faCode} C/C++, \icon{\faRProject} R, \TeX
   }
-  \comptence{工具}{%
-    Git, CMake, Meson, Visual Studio Code, \LaTeX
-  }
+  % \comptence{工具}{%
+  %   Git, CMake, Meson, Visual Studio Code, \LaTeX
+  % }
   \comptence{数据分析}{%
-    Pandas; Matplotlib, ggplot2, Tikz, Scikit-learn, TensorFlow
+    Pandas; Matplotlib, ggplot2, Tikz
   }
-  \comptence{网站开发}{%
-    Flask, Django, Express.js, React.js
+  \comptence{深度学习}{%
+    TensorFlow, PyTorch, Transformers, CUDA
+  }
+  % \comptence{网站开发}{%
+  %   Flask, Django, Express.js, React.js, Vue.js
+  % }
+  \comptence{大语言模型}{%
+    SwarmX (多智能体框架), Omni WebUI (大语言模型网页界面), FastOAI (多源大语言模型API集成)
   }
   \comptence{\icon{\faLanguage} 语言}{
     \textbf{英语} --- 读写（优良），听说（日常交流）CET-6 456
@@ -86,6 +92,15 @@
 \sectionTitle{教育背景}{\faGraduationCap}
 %======================================================================
 \begin{educations}
+  \education%
+    {2022.09}%
+    [至今]%
+    {南京农业大学}%
+    {前沿交叉研究院}%
+    {农业工程}%
+    {博士在读}
+
+  \separator{0.5ex}
   \education%
     {2019.09}%
     [2022.09]%
@@ -114,21 +129,27 @@
 %   \item 熟悉 Linux 操作系统运维，将部分科研行业软件容器化
 % \end{itemize}
 
-%======================================================================
-\sectionTitle{个人项目}{\faCode}
-%======================================================================
+% %======================================================================
+% \sectionTitle{个人项目}{\faCode}
+% %======================================================================
+% \begin{itemize}
+%   \item \link{https://github.com/tcztzy/cotton2k}{\texttt{cotton2k}}:
+%     (C++, Rust, Python)
+%     棉花生长模拟模型
+%   \item \link{https://github.com/tcztzy/zac}{\texttt{zac}}:
+%     (Python)
+%     Zac 大气校正工具，可校正Landsat、Sentinel和MODIS系列卫星，基于\link{https://github.com/mutiply-org/SAIC}{\texttt{SAIC}}
+%   \item \link{https://github.com/tcztzy/uyghur}{\texttt{uyghur}}:
+%     (Python, Perl) 现行维吾尔文和拉丁维吾尔文转换工具
+%   \item \link{https://github.com/tcztzy/datav}{\texttt{datav}}:
+%     (\LaTeX)
+%     地理信息系统数据可视化
+% \end{itemize}
+
+\sectionTitle{科研发表}{\faFlask}
 \begin{itemize}
-  \item \link{https://github.com/tcztzy/cotton2k}{\texttt{cotton2k}}:
-    (C++, Rust, Python)
-    棉花生长模拟模型
-  \item \link{https://github.com/tcztzy/zac}{\texttt{zac}}:
-    (Python)
-    Zac 大气校正工具，可校正Landsat、Sentinel和MODIS系列卫星，基于\link{https://github.com/mutiply-org/SAIC}{\texttt{SAIC}}
-  \item \link{https://github.com/tcztzy/uyghur}{\texttt{uyghur}}:
-    (Python, Perl) 现行维吾尔文和拉丁维吾尔文转换工具
-  \item \link{https://github.com/tcztzy/resume}{\texttt{resume}}:
-    (\LaTeX)
-    \emph{此简历}的模板和源文件
+  \item 唐梓涯.南疆盐渍区无膜栽培棉花生长模拟[D].塔里木大学,2022.DOI:10.27708/d.cnki.gtlmd.2022.000156.
+  \item Tang, Ziya (2022), Modeling Non-Mulched Cultivation Cotton Growth and Yield Responses to Irrigation Scheduling Using Canopy-Modified Cotton2k Model.
 \end{itemize}
 
 %======================================================================
